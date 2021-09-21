@@ -68,7 +68,8 @@ const Temperature = () => {
       </div>
 
       {/* our temperature card */}
-      <WeatherCard tempInfo={tempInfo} />
+      {/* <WeatherCard tempInfo={tempInfo} /> */}
+      <WeatherCard {...tempInfo} />
     </>
   );
 };
